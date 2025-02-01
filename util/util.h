@@ -11,8 +11,8 @@
   */
 //
 
-#ifndef LEETCODE_HASHTABLE_UTIL_H
-#define LEETCODE_HASHTABLE_UTIL_H
+#ifndef BREADTHFIRSTSEARCH_UTIL_H
+#define BREADTHFIRSTSEARCH_UTIL_H
 #include <iostream>
 #include <vector>
 #include <string>
@@ -154,4 +154,4 @@ inline string print_tree(TreeNode *root) {
     return s;
 }
 
-#endif //LEETCODE_HASHTABLE_UTIL_H
+#endif //BREADTHFIRSTSEARCH_UTIL_H
