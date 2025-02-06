@@ -3,4 +3,4 @@ project(BreadthFirstSearch)
 
 set(CMAKE_CXX_STANDARD 20)
 include_directories(util)
-add_executable(BreadthFirstSearch util/util.h test_factory.h main.cpp L100_isSameTree/L100_isSameTree.cpp L100_isSameTree/L100_isSameTree.h L101_isSymmetric/L101_isSymmetric.cpp L101_isSymmetric/L101_isSymmetric.h)
+add_executable(BreadthFirstSearch util/util.h test_factory.h main.cpp L100_isSameTree/L100_isSameTree.cpp L100_isSameTree/L100_isSameTree.h L101_isSymmetric/L101_isSymmetric.cpp L101_isSymmetric/L101_isSymmetric.h L102_levelOrder/L102_levelOrder.cpp L102_levelOrder/L102_levelOrder.h L103_zigzagLevelOrder/L103_zigzagLevelOrder.cpp L103_zigzagLevelOrder/L103_zigzagLevelOrder.h)

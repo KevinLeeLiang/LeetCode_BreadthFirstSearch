@@ -16,6 +16,8 @@
 #include <memory>
 #include "L100_isSameTree/L100_isSameTree.h"
 #include "L101_isSymmetric/L101_isSymmetric.h"
+#include "L102_levelOrder/L102_levelOrder.h"
+#include "L103_zigzagLevelOrder/L103_zigzagLevelOrder.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -24,6 +26,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         } else if (title == "L101") {
             std::shared_ptr<L101_isSymmetric> tmp= std::make_shared<L101_isSymmetric>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L102") {
+            std::shared_ptr<L102_levelOrder> tmp= std::make_shared<L102_levelOrder>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L103") {
+            std::shared_ptr<L103_zigzagLevelOrder> tmp= std::make_shared<L103_zigzagLevelOrder>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }
