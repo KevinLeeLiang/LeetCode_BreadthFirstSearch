@@ -1,29 +1,33 @@
-//
-// Created by garen_lee on 2025/2/6.
+// Created by garen_lee on 2025/2/11.
 /**
   ******************************************************************************
   * @file           : L103_zigzagLevelOrder.cpp.cc
   * @author         : garen_lee
   * @brief          : None
   * @attention      : None
+<<<<<<< Updated upstream
   * @date           : 2025/2/6
+=======
+  * @date           : 2025/2/11
+>>>>>>> Stashed changes
   ******************************************************************************
   */
 //
 
 #include "L103_zigzagLevelOrder.h"
+
 vector<vector<int>> L103_zigzagLevelOrder::zigzagLevelOrder(TreeNode* root) {
     if (!root) {
         return {};
     }
-    vector<vector<int>> res;
-    queue<TreeNode*> q;
+    vector<vector<int>>result;
+    queue<TreeNode*>q;
     q.push(root);
     bool flag = false;
     while (!q.empty()) {
         int size = q.size();
-        deque<int> level;
-        while (size--) {
+        deque<int>level;
+        for (int i = 0; i < size; ++i) {
             TreeNode* node = q.front();
             q.pop();
             if (flag) {
@@ -39,34 +43,26 @@ vector<vector<int>> L103_zigzagLevelOrder::zigzagLevelOrder(TreeNode* root) {
             }
         }
         flag = !flag;
-        res.push_back(vector<int>(level.begin(), level.end()));
+        result.push_back(vector<int>(level.begin(), level.end()));
     }
-    return res;
+    return result;
 }
+
 void L103_zigzagLevelOrder::test() {
-    vector<vector<int>> res;
-    vector<int> vec;
+    vector<int>vals;
+    vector<vector<int>>result;
     TreeNode* root;
-    vec = {3,9,20,-1,-1,15,7};
-    root = create_treenode(vec, true);
-    res = zigzagLevelOrder(root);
-    for (auto &item : res) {
-        print_vector(item);
-    }
-    cout << "++++" << endl;
-    vec = {1};
-    root = create_treenode(vec, true);
-    res = zigzagLevelOrder(root);
-    for (auto &item : res) {
-        print_vector(item);
-    }
-    cout << "++++" << endl;
-    vec = {};
-    root = create_treenode(vec, true);
-    res = zigzagLevelOrder(root);
-    for (auto &item : res) {
-        print_vector(item);
-    }
-    cout << "++++" << endl;
+    vals = {3,9,20,-1,-1,15,7};
+    root = create_treenode(vals, true);
+    result = zigzagLevelOrder(root);
+    print_vector_vector(result);
+    vals = {1};
+    root = create_treenode(vals, true);
+    result = zigzagLevelOrder(root);
+    print_vector_vector(result);
+    vals = {};
+    root = create_treenode(vals, true);
+    result = zigzagLevelOrder(root);
+    print_vector_vector(result);
 
 }

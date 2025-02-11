@@ -1,12 +1,16 @@
-//
-// Created by garen_lee on 2025/2/6.
+
+// Created by garen_lee on 2025/2/11.
 /**
   ******************************************************************************
   * @file           : L102_levelOrder.cpp.cc
   * @author         : garen_lee
   * @brief          : None
   * @attention      : None
+<<<<<<< Updated upstream
   * @date           : 2025/2/6
+=======
+  * @date           : 2025/2/11
+>>>>>>> Stashed changes
   ******************************************************************************
   */
 //
@@ -31,29 +35,30 @@ vector<vector<int>> L102_levelOrder::levelOrder(TreeNode* root) {
     }
     return result;
 }
-void L102_levelOrder::test(){
+
+void L102_levelOrder::test() {
+    vector<int> vals;
     vector<vector<int>> result;
-    vector<int> vec;
-    TreeNode*root;
-    vec={3,9,20,-1,-1,15,7};
-    root = create_treenode(vec,true);
+    TreeNode* root;
+    vals = {3, 9, 20, -1, -1, 15, 7};
+    root = create_treenode(vals, true);
     result = levelOrder(root);
-    for (auto i:result){
+    for (auto i : result) {
         print_vector(i);
     }
-    cout << "+++++" << endl;
-    vec={1};
-    root = create_treenode(vec,true);
+    cout << "++++" << endl;
+    vals = {1};
+    root = create_treenode(vals, true);
     result = levelOrder(root);
-    for (auto i:result){
+    for (auto i : result) {
         print_vector(i);
     }
-    cout << "+++++" << endl;
-    vec={};
-    root = create_treenode(vec,true);
+    cout << "++++" << endl;
+    vals = {};
+    root = create_treenode(vals, true);
     result = levelOrder(root);
-    for (auto i:result){
+    for (auto i : result) {
         print_vector(i);
     }
-    cout << "+++++" << endl;
+    cout << "++++" << endl;
 }

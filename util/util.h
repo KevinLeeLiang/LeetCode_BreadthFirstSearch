@@ -154,4 +154,15 @@ inline string print_tree(TreeNode *root) {
     return s;
 }
 
+template<typename T>
+void print_vector_vector(vector<vector<T>> &vec) {
+    for (auto &item : vec) {
+        for (auto &item2 : item) {
+            cout << item2 << " ";
+        }
+        cout << endl;
+    }
+    cout <<  "__________" << endl;
+}
+
 #endif //BREADTHFIRSTSEARCH_UTIL_H
