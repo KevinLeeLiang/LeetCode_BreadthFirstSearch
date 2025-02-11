@@ -11,3 +11,7 @@ LeetCode广度优先搜索算法题的解题仓库
 [102. 二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/description/?envType=problem-list-v2&envId=breadth-first-search) : [L102_levelOrder](L102_levelOrder)
 
 [103. 二叉树的锯齿形层序遍历](https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/?envType=problem-list-v2&envId=breadth-first-search) : [L103_zigzagLevelOrder](L103_zigzagLevelOrder)
+
+[104. 二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/description/?envType=problem-list-v2&envId=breadth-first-search) ： [L104_maxDepth](L104_maxDepth)
+
+[107. 二叉树的层序遍历 II](https://leetcode.cn/problems/binary-tree-level-order-traversal-ii/description/?envType=problem-list-v2&envId=breadth-first-search) ： [L107_levelOrderBottom](L107_levelOrderBottom)

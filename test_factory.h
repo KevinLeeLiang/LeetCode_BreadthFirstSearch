@@ -18,6 +18,8 @@
 #include "L101_isSymmetric/L101_isSymmetric.h"
 #include "L102_levelOrder/L102_levelOrder.h"
 #include "L103_zigzagLevelOrder/L103_zigzagLevelOrder.h"
+#include "L104_maxDepth/L104_maxDepth.h"
+#include "L107_levelOrderBottom/L107_levelOrderBottom.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -32,6 +34,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         } else if (title == "L103") {
             std::shared_ptr<L103_zigzagLevelOrder> tmp= std::make_shared<L103_zigzagLevelOrder>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L104") {
+            std::shared_ptr<L104_maxDepth> tmp= std::make_shared<L104_maxDepth>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L107") {
+            std::shared_ptr<L107_levelOrderBottom> tmp= std::make_shared<L107_levelOrderBottom>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }
