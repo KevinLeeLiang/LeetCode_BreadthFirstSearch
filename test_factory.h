@@ -20,6 +20,8 @@
 #include "L103_zigzagLevelOrder/L103_zigzagLevelOrder.h"
 #include "L104_maxDepth/L104_maxDepth.h"
 #include "L107_levelOrderBottom/L107_levelOrderBottom.h"
+#include "L111_minDepth/L111_minDepth.h"
+#include "L112_hasPathSum/L112_hasPathSum.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -40,6 +42,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         } else if (title == "L107") {
             std::shared_ptr<L107_levelOrderBottom> tmp= std::make_shared<L107_levelOrderBottom>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L111") {
+            std::shared_ptr<L111_minDepth> tmp= std::make_shared<L111_minDepth>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L112") {
+            std::shared_ptr<L112_hasPathSum> tmp= std::make_shared<L112_hasPathSum>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }
