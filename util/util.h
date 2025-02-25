@@ -165,4 +165,91 @@ void print_vector_vector(vector<vector<T>> &vec) {
     cout <<  "__________" << endl;
 }
 
+class Node {
+public:
+    int val;
+    Node *left;
+    Node *right;
+    Node *next;
+    Node() : val(0), left(NULL), right(NULL), next(NULL) {}
+    Node(int _val) : val(_val), left(NULL), right(NULL), next(NULL) {}
+    Node(int _val, Node *_left, Node *_right, Node *_next)
+            : val(_val), left(_left), right(_right), next(_next) {}
+};
+
+inline Node* create_node(vector<int> node_vals ,bool is_include_zero = true, bool is_connect=false) {
+    if (node_vals.size() == 0)
+        return nullptr;
+    queue<Node *> q;
+    Node *root = new Node(node_vals[0]);
+    int index = 0;
+    q.push(root);
+    index++;
+    while (!q.empty()) {
+        if (index >= node_vals.size())
+            break;
+        auto p = q.front();
+        q.pop();
+        if (is_include_zero) {
+            if (index < node_vals.size() && node_vals[index] >= 0) {
+                p->left = new Node(node_vals[index]);
+                q.push(p->left);
+            }
+            index++;
+            if (index < node_vals.size() && node_vals[index] >= 0) {
+                p->right = new Node(node_vals[index]);
+                q.push(p->right);
+            }
+            index++;
+        } else {
+            if (index < node_vals.size() && node_vals[index] != 0) {
+                p->left = new Node(node_vals[index]);
+                q.push(p->left);
+            }
+            index++;
+            if (index < node_vals.size() && node_vals[index] != 0) {
+                p->right = new Node(node_vals[index]);
+                q.push(p->right);
+            }
+            index++;
+        }
+
+        if (is_connect){
+            if (index < node_vals.size() && node_vals[index] != 0) {
+                p->next = new Node(node_vals[index]);
+            }
+            index++;
+        }
+    }
+    return root;
+}
+
+inline void print_node(Node *root) {
+    if (root == nullptr)
+        return;
+    queue<Node *> q;
+    q.push(root);
+    while (!q.empty()) {
+        auto size = q.size();
+        bool is_first = true;
+        for (int i = 0; i < size; ++i) {
+            auto node = q.front();
+            q.pop();
+            if (node == nullptr) {
+                cout << "NULL ";
+            } else {
+                cout << node->val << " ";
+//                if (is_first) {
+//                    is_first = false;
+//                } else {
+//                    cout << endl;
+//                }
+                q.push(node->left);
+                q.push(node->right);
+            }
+        }
+        cout << endl;
+    }
+}
+
 #endif //BREADTHFIRSTSEARCH_UTIL_H

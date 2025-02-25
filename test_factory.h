@@ -22,6 +22,8 @@
 #include "L107_levelOrderBottom/L107_levelOrderBottom.h"
 #include "L111_minDepth/L111_minDepth.h"
 #include "L112_hasPathSum/L112_hasPathSum.h"
+#include "L116_connect/L116_connect.h"
+#include "L117_connect/L117_connect.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -48,6 +50,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         } else if (title == "L112") {
             std::shared_ptr<L112_hasPathSum> tmp= std::make_shared<L112_hasPathSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L116") {
+            std::shared_ptr<L116_connect> tmp= std::make_shared<L116_connect>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L117") {
+            std::shared_ptr<L117_connect> tmp= std::make_shared<L117_connect>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }
