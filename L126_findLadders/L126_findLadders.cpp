@@ -13,17 +13,17 @@
 
 #include "L126_findLadders.h"
 
-void L126_findLadders::backtrack(vector<vector<string>> &res, const string &cur_word, unordered_map<string, set<string>> &from,
+void L126_findLadders::backtrack(vector<vector<string>> &res, const string &Node, unordered_map<string, set<string>> &from,
                                  vector<string> &path) {
-    if (from[cur_word].empty()) {
-        res.push_back(path);
+    if (from[Node].empty()) {
+        res.push_back({path.rbegin(), path.rend()});
         return;
     }
-    for (auto preWord : from[cur_word]) {
-        path.push_back(preWord);
-        backtrack(res, preWord, from, path);
+    for (const string &Parent: from[Node]) {
+        path.push_back(Parent);
+        backtrack(res, Parent, from, path);
         path.pop_back();
-   }
+    }
 }
 
 vector<vector<string>> L126_findLadders::findLadders(string beginWord, string endWord, vector<string>& wordList) {

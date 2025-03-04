@@ -18,7 +18,7 @@
 class L126_findLadders : public LeetcodeBreadthFirstSearch {
 private:
     vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList);
-    void backtrack(vector<vector<string>> &res, const string &cur_word, unordered_map<string, set<string>> &from,
+    void backtrack(vector<vector<string>> &res, const string &Node, unordered_map<string, set<string>> &from,
                    vector<string> &path);
 
 public:
