@@ -24,6 +24,9 @@
 #include "L112_hasPathSum/L112_hasPathSum.h"
 #include "L116_connect/L116_connect.h"
 #include "L117_connect/L117_connect.h"
+#include "L126_findLadders/L126_findLadders.h"
+#include "L127_ladderLength/L127_ladderLength.h"
+
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -57,6 +60,14 @@ private:
         } else if (title == "L117") {
             std::shared_ptr<L117_connect> tmp= std::make_shared<L117_connect>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L126") {
+            std::shared_ptr<L126_findLadders> tmp= std::make_shared<L126_findLadders>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L127") {
+            std::shared_ptr<L127_ladderLength> tmp= std::make_shared<L127_ladderLength>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:
