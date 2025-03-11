@@ -23,3 +23,7 @@ LeetCode广度优先搜索算法题的解题仓库
 [126. 单词接龙 II](https://leetcode.cn/problems/word-ladder-ii/description/?envType=problem-list-v2&envId=breadth-first-search) : [L126_findLadders](L126_findLadders)
 
 [127. 单词接龙](https://leetcode.cn/problems/word-ladder/description/?envType=problem-list-v2&envId=breadth-first-search) : [L127_ladderLength](L127_ladderLength)
+
+[130. 被围绕的区域](https://leetcode.cn/problems/surrounded-regions/description/?envType=problem-list-v2&envId=breadth-first-search) : [L130_solve](L130_solve)
+
+[199. 二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view/description/?envType=problem-list-v2&envId=breadth-first-search) : [L199_rightSideView](L199_rightSideView)

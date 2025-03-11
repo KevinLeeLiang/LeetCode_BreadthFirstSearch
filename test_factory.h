@@ -26,6 +26,8 @@
 #include "L117_connect/L117_connect.h"
 #include "L126_findLadders/L126_findLadders.h"
 #include "L127_ladderLength/L127_ladderLength.h"
+#include "L130_solve/L130_solve.h"
+#include "L199_rightSideView/L199_rightSideView.h"
 
 class test_factory {
 private:
@@ -66,8 +68,12 @@ private:
         } else if (title == "L127") {
             std::shared_ptr<L127_ladderLength> tmp= std::make_shared<L127_ladderLength>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L130") {
+            std::shared_ptr<L130_solve> tmp= std::make_shared<L130_solve>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L199") {
+            std::shared_ptr<L199_rightSideView> tmp= std::make_shared<L199_rightSideView>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }
 public:
