@@ -28,6 +28,8 @@
 #include "L127_ladderLength/L127_ladderLength.h"
 #include "L130_solve/L130_solve.h"
 #include "L199_rightSideView/L199_rightSideView.h"
+#include "L200_numIslands/L200_numIslands.h"
+#include "L207_canFinish/L207_canFinish.h"
 
 class test_factory {
 private:
@@ -73,6 +75,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         } else if (title == "L199") {
             std::shared_ptr<L199_rightSideView> tmp= std::make_shared<L199_rightSideView>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L200") {
+            std::shared_ptr<L200_numIslands> tmp= std::make_shared<L200_numIslands>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L207") {
+            std::shared_ptr<L207_canFinish> tmp= std::make_shared<L207_canFinish>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }

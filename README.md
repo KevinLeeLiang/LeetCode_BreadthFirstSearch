@@ -27,3 +27,7 @@ LeetCode广度优先搜索算法题的解题仓库
 [130. 被围绕的区域](https://leetcode.cn/problems/surrounded-regions/description/?envType=problem-list-v2&envId=breadth-first-search) : [L130_solve](L130_solve)
 
 [199. 二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view/description/?envType=problem-list-v2&envId=breadth-first-search) : [L199_rightSideView](L199_rightSideView)
+
+[200. 岛屿数量](https://leetcode.cn/problems/number-of-islands/description/?envType=problem-list-v2&envId=breadth-first-search) : [L200_numIslands](L200_numIslands)
+
+[207. 课程表](https://leetcode.cn/problems/course-schedule/description/?envType=problem-list-v2&envId=breadth-first-search) : [L207_canFinish](L207_canFinish)
