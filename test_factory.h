@@ -30,6 +30,8 @@
 #include "L199_rightSideView/L199_rightSideView.h"
 #include "L200_numIslands/L200_numIslands.h"
 #include "L207_canFinish/L207_canFinish.h"
+#include "L210_findOrder/L210_findOrder.h"
+#include "L226_invertTree/L226_invertTree.h"
 
 class test_factory {
 private:
@@ -82,6 +84,14 @@ private:
         } else if (title == "L207") {
             std::shared_ptr<L207_canFinish> tmp= std::make_shared<L207_canFinish>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L210") {
+            std::shared_ptr<L210_findOrder> tmp= std::make_shared<L210_findOrder>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L226") {
+            std::shared_ptr<L226_invertTree> tmp= std::make_shared<L226_invertTree>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else {
+            cout << "no such title" << endl;
         }
     }
 public:
