@@ -35,3 +35,8 @@ LeetCode广度优先搜索算法题的解题仓库
 [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/description/?envType=problem-list-v2&envId=breadth-first-search) : [L210_findOrder](L210_findOrder)
 
 [226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/description/?envType=problem-list-v2&envId=breadth-first-search) : [L226_invertTree](L226_invertTree)
+
+[279. 完全平方数](https://leetcode.cn/problems/perfect-squares/description/?envType=problem-list-v2&envId=breadth-first-search) : [L279_numSquares](L279_numSquares)
+
+[297. 二叉树的序列化与反序列化](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/description/?envType=problem-list-v2&envId=breadth-first-search) : [L297_SerializeDeserializeBinaryTree](L297_SerializeDeserializeBinaryTree)
+

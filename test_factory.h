@@ -32,6 +32,8 @@
 #include "L207_canFinish/L207_canFinish.h"
 #include "L210_findOrder/L210_findOrder.h"
 #include "L226_invertTree/L226_invertTree.h"
+#include "L279_numSquares/L279_numSquares.h"
+#include "L297_serializeAnddeserialize/L297_serializeAnddeserialize.h"
 
 class test_factory {
 private:
@@ -90,8 +92,12 @@ private:
         } else if (title == "L226") {
             std::shared_ptr<L226_invertTree> tmp= std::make_shared<L226_invertTree>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
-        } else {
-            cout << "no such title" << endl;
+        } else if (title == "L279") {
+            std::shared_ptr<L279_numSquares> tmp= std::make_shared<L279_numSquares>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L297") {
+            std::shared_ptr<L297_serializeAnddeserialize> tmp= std::make_shared<L297_serializeAnddeserialize>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }
 public:

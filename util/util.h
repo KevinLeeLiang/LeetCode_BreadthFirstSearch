@@ -32,6 +32,7 @@
 #include <cstdint>
 #include <cstdarg>
 #include <set>
+#include <list>
 using namespace std;
 class LeetcodeBreadthFirstSearch{
 public:
