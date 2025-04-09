@@ -40,3 +40,7 @@ LeetCode广度优先搜索算法题的解题仓库
 
 [297. 二叉树的序列化与反序列化](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/description/?envType=problem-list-v2&envId=breadth-first-search) : [L297_SerializeDeserializeBinaryTree](L297_SerializeDeserializeBinaryTree)
 
+[301. 删除无效的括号](https://leetcode.cn/problems/remove-invalid-parentheses/description/?envType=problem-list-v2&envId=breadth-first-search) : [L301_removeInvalidParentheses](L301_removeInvalidParentheses)
+
+[310. 最小高度树](https://leetcode.cn/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=breadth-first-search) : [L310_findMinHeightTrees](L310_findMinHeightTrees)
+

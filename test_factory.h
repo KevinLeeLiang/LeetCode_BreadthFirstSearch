@@ -34,6 +34,8 @@
 #include "L226_invertTree/L226_invertTree.h"
 #include "L279_numSquares/L279_numSquares.h"
 #include "L297_serializeAnddeserialize/L297_serializeAnddeserialize.h"
+#include "L301_removeInvalidParentheses/L301_removeInvalidParentheses.h"
+#include "L310_findMinHeightTrees/L310_findMinHeightTrees.h"
 
 class test_factory {
 private:
@@ -98,6 +100,14 @@ private:
         } else if (title == "L297") {
             std::shared_ptr<L297_serializeAnddeserialize> tmp= std::make_shared<L297_serializeAnddeserialize>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L301") {
+            std::shared_ptr<L301_removeInvalidParentheses> tmp= std::make_shared<L301_removeInvalidParentheses>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L310") {
+            std::shared_ptr<L310_findMinHeightTrees> tmp= std::make_shared<L310_findMinHeightTrees>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:
