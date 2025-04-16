@@ -36,6 +36,8 @@
 #include "L297_serializeAnddeserialize/L297_serializeAnddeserialize.h"
 #include "L301_removeInvalidParentheses/L301_removeInvalidParentheses.h"
 #include "L310_findMinHeightTrees/L310_findMinHeightTrees.h"
+#include "L322_coinChange/L322_coinChange.h"
+#include "L329_longestIncreasingPath/L329_longestIncreasingPath.h"
 
 class test_factory {
 private:
@@ -106,8 +108,14 @@ private:
         } else if (title == "L310") {
             std::shared_ptr<L310_findMinHeightTrees> tmp= std::make_shared<L310_findMinHeightTrees>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L322") {
+            std::shared_ptr<L322_coinChange> tmp= std::make_shared<L322_coinChange>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L329") {
+            std::shared_ptr<L329_longestIncreasingPath> tmp= std::make_shared<L329_longestIncreasingPath>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         } else {
-            cout << "no solution" << endl;
+            cout << "no such title" << endl;
         }
     }
 public:

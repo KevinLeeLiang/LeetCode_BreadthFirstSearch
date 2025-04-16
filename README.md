@@ -44,3 +44,6 @@ LeetCode广度优先搜索算法题的解题仓库
 
 [310. 最小高度树](https://leetcode.cn/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=breadth-first-search) : [L310_findMinHeightTrees](L310_findMinHeightTrees)
 
+[322. 零钱兑换](https://leetcode.cn/problems/coin-change/description/?envType=problem-list-v2&envId=breadth-first-search) : [L322_coinChange](L322_coinChange)
+
+[329. 矩阵中的最长递增路径](https://leetcode.cn/problems/longest-increasing-path-in-a-matrix/description/?envType=problem-list-v2&envId=breadth-first-search) : [L329_longestIncreasingPath](L329_longestIncreasingPath)
