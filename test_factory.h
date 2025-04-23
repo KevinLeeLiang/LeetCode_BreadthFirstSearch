@@ -38,6 +38,8 @@
 #include "L310_findMinHeightTrees/L310_findMinHeightTrees.h"
 #include "L322_coinChange/L322_coinChange.h"
 #include "L329_longestIncreasingPath/L329_longestIncreasingPath.h"
+#include "L365_canMeasureWater/L365_canMeasureWater.h"
+#include "L399_calcEquation/L399_calcEquation.h"
 
 class test_factory {
 private:
@@ -114,8 +116,12 @@ private:
         } else if (title == "L329") {
             std::shared_ptr<L329_longestIncreasingPath> tmp= std::make_shared<L329_longestIncreasingPath>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
-        } else {
-            cout << "no such title" << endl;
+        } else if (title == "L365") {
+            std::shared_ptr<L365_canMeasureWater> tmp= std::make_shared<L365_canMeasureWater>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L399") {
+            std::shared_ptr<L399_calcEquation> tmp= std::make_shared<L399_calcEquation>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }
 public:

@@ -47,3 +47,7 @@ LeetCode广度优先搜索算法题的解题仓库
 [322. 零钱兑换](https://leetcode.cn/problems/coin-change/description/?envType=problem-list-v2&envId=breadth-first-search) : [L322_coinChange](L322_coinChange)
 
 [329. 矩阵中的最长递增路径](https://leetcode.cn/problems/longest-increasing-path-in-a-matrix/description/?envType=problem-list-v2&envId=breadth-first-search) : [L329_longestIncreasingPath](L329_longestIncreasingPath)
+
+[365. 水壶问题](https://leetcode.cn/problems/water-and-jug-problem/description/?envType=problem-list-v2&envId=breadth-first-search) : [L365_canMeasureWater](L365_canMeasureWater)
+
+[399. 除法求值](https://leetcode.cn/problems/evaluate-division/description/?envType=problem-list-v2&envId=breadth-first-search) : [L399_calcEquation](L399_calcEquation)
