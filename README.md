@@ -51,3 +51,7 @@ LeetCode广度优先搜索算法题的解题仓库
 [365. 水壶问题](https://leetcode.cn/problems/water-and-jug-problem/description/?envType=problem-list-v2&envId=breadth-first-search) : [L365_canMeasureWater](L365_canMeasureWater)
 
 [399. 除法求值](https://leetcode.cn/problems/evaluate-division/description/?envType=problem-list-v2&envId=breadth-first-search) : [L399_calcEquation](L399_calcEquation)
+
+[404. 左叶子之和](https://leetcode.cn/problems/sum-of-left-leaves/description/?envType=problem-list-v2&envId=breadth-first-search) : [L404_sumOfLeftLeaves](L404_sumOfLeftLeaves)
+
+[407. 接雨水 II](https://leetcode.cn/problems/trapping-rain-water-ii/description/?envType=problem-list-v2&envId=breadth-first-search): [L407_trapRainWater](L407_trapRainWater)

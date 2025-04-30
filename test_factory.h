@@ -40,6 +40,7 @@
 #include "L329_longestIncreasingPath/L329_longestIncreasingPath.h"
 #include "L365_canMeasureWater/L365_canMeasureWater.h"
 #include "L399_calcEquation/L399_calcEquation.h"
+#include "L404_sumOfLeftLeaves/L404_sum0fLeftLeaves.h"
 
 class test_factory {
 private:
@@ -121,6 +122,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         } else if (title == "L399") {
             std::shared_ptr<L399_calcEquation> tmp= std::make_shared<L399_calcEquation>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L404") {
+            std::shared_ptr<L404_sum0fLeftLeaves> tmp= std::make_shared<L404_sum0fLeftLeaves>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }
