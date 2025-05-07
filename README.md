@@ -55,3 +55,7 @@ LeetCode广度优先搜索算法题的解题仓库
 [404. 左叶子之和](https://leetcode.cn/problems/sum-of-left-leaves/description/?envType=problem-list-v2&envId=breadth-first-search) : [L404_sumOfLeftLeaves](L404_sumOfLeftLeaves)
 
 [407. 接雨水 II](https://leetcode.cn/problems/trapping-rain-water-ii/description/?envType=problem-list-v2&envId=breadth-first-search): [L407_trapRainWater](L407_trapRainWater)
+
+[417. 太平洋大西洋水流问题](https://leetcode.cn/problems/pacific-atlantic-water-flow/description/?envType=problem-list-v2&envId=breadth-first-search) : [L417_pacificAtlantic](L417_pacificAtlantic)
+
+[429. N 叉树的层序遍历](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/description/?envType=problem-list-v2&envId=breadth-first-search) : [L429_levelOrder](L429_levelOrder)
