@@ -41,6 +41,8 @@
 #include "L365_canMeasureWater/L365_canMeasureWater.h"
 #include "L399_calcEquation/L399_calcEquation.h"
 #include "L404_sumOfLeftLeaves/L404_sum0fLeftLeaves.h"
+#include "L417_pacificAtlantic/L417_pacificAtlantic.h"
+#include "L429_levelOrder/L429_levelOrder.h"
 
 class test_factory {
 private:
@@ -125,6 +127,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         } else if (title == "L404") {
             std::shared_ptr<L404_sum0fLeftLeaves> tmp= std::make_shared<L404_sum0fLeftLeaves>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L417") {
+            std::shared_ptr<L417_pacificAtlantic> tmp= std::make_shared<L417_pacificAtlantic>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L429") {
+            std::shared_ptr<L429_levelOrder> tmp= std::make_shared<L429_levelOrder>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }
