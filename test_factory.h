@@ -43,6 +43,8 @@
 #include "L404_sumOfLeftLeaves/L404_sum0fLeftLeaves.h"
 #include "L417_pacificAtlantic/L417_pacificAtlantic.h"
 #include "L429_levelOrder/L429_levelOrder.h"
+#include "L433_minMutation/L433_minMutation.h"
+#include "L449_serializeAnddeserialize/L449_serializeAnddeserialize.h"
 
 class test_factory {
 private:
@@ -133,6 +135,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         } else if (title == "L429") {
             std::shared_ptr<L429_levelOrder> tmp= std::make_shared<L429_levelOrder>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L433") {
+            std::shared_ptr<L433_minMutation> tmp= std::make_shared<L433_minMutation>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L449") {
+            std::shared_ptr<L449_serializeAnddeserialize> tmp= std::make_shared<L449_serializeAnddeserialize>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }

@@ -59,3 +59,7 @@ LeetCode广度优先搜索算法题的解题仓库
 [417. 太平洋大西洋水流问题](https://leetcode.cn/problems/pacific-atlantic-water-flow/description/?envType=problem-list-v2&envId=breadth-first-search) : [L417_pacificAtlantic](L417_pacificAtlantic)
 
 [429. N 叉树的层序遍历](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/description/?envType=problem-list-v2&envId=breadth-first-search) : [L429_levelOrder](L429_levelOrder)
+
+[433. 最小基因变化](https://leetcode.cn/problems/minimum-genetic-mutation/description/?envType=problem-list-v2&envId=breadth-first-search) : [L433_minMutation](L433_minMutation)
+
+[449. 序列化和反序列化二叉搜索树](https://leetcode.cn/problems/serialize-and-deserialize-bst/description/?envType=problem-list-v2&envId=breadth-first-search) : [L449_SerializeDeserializeBST](L449_SerializeDeserializeBST)
