@@ -45,6 +45,8 @@
 #include "L429_levelOrder/L429_levelOrder.h"
 #include "L433_minMutation/L433_minMutation.h"
 #include "L449_serializeAnddeserialize/L449_serializeAnddeserialize.h"
+#include "L463_islandPerimeter/L463_islandPerimeter.h"
+#include "L488_findMinStep/L488_findMinStep.h"
 
 class test_factory {
 private:
@@ -141,6 +143,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         } else if (title == "L449") {
             std::shared_ptr<L449_serializeAnddeserialize> tmp= std::make_shared<L449_serializeAnddeserialize>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L463") {
+            std::shared_ptr<L463_islandPerimeter> tmp= std::make_shared<L463_islandPerimeter>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L488") {
+            std::shared_ptr<L488_findMinStep> tmp= std::make_shared<L488_findMinStep>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }

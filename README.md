@@ -63,3 +63,7 @@ LeetCode广度优先搜索算法题的解题仓库
 [433. 最小基因变化](https://leetcode.cn/problems/minimum-genetic-mutation/description/?envType=problem-list-v2&envId=breadth-first-search) : [L433_minMutation](L433_minMutation)
 
 [449. 序列化和反序列化二叉搜索树](https://leetcode.cn/problems/serialize-and-deserialize-bst/description/?envType=problem-list-v2&envId=breadth-first-search) : [L449_SerializeDeserializeBST](L449_SerializeDeserializeBST)
+
+[463. 岛屿的周长](https://leetcode.cn/problems/island-perimeter/description/?envType=problem-list-v2&envId=breadth-first-search) : [L463_islandPerimeter](L463_islandPerimeter)
+
+[488. 祖玛游戏](https://leetcode.cn/problems/zuma-game/description/?envType=problem-list-v2&envId=breadth-first-search) : [L488_findMinStep](L488_findMinStep)
