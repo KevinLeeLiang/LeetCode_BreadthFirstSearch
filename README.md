@@ -67,3 +67,7 @@ LeetCode广度优先搜索算法题的解题仓库
 [463. 岛屿的周长](https://leetcode.cn/problems/island-perimeter/description/?envType=problem-list-v2&envId=breadth-first-search) : [L463_islandPerimeter](L463_islandPerimeter)
 
 [488. 祖玛游戏](https://leetcode.cn/problems/zuma-game/description/?envType=problem-list-v2&envId=breadth-first-search) : [L488_findMinStep](L488_findMinStep)
+
+[513. 找树左下角的值](https://leetcode.cn/problems/find-bottom-left-tree-value/description/?envType=problem-list-v2&envId=breadth-first-search) : [L513_findBottomLeftValue](L513_findBottomLeftValue)
+
+[514. 自由之路](https://leetcode.cn/problems/freedom-trail/description/?envType=problem-list-v2&envId=breadth-first-search) : [L514_findRotateSteps](L514_findRotateSteps)

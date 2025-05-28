@@ -47,6 +47,8 @@
 #include "L449_serializeAnddeserialize/L449_serializeAnddeserialize.h"
 #include "L463_islandPerimeter/L463_islandPerimeter.h"
 #include "L488_findMinStep/L488_findMinStep.h"
+#include "L513_findBottomLeftValue/L513_findBottomLeftValue.h"
+#include "L514_findRotateSteps/L514_findRotateSteps.h"
 
 class test_factory {
 private:
@@ -149,6 +151,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         } else if (title == "L488") {
             std::shared_ptr<L488_findMinStep> tmp= std::make_shared<L488_findMinStep>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L513") {
+            std::shared_ptr<L513_findBottomLeftValue> tmp= std::make_shared<L513_findBottomLeftValue>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L514") {
+            std::shared_ptr<L514_findRotateSteps> tmp= std::make_shared<L514_findRotateSteps>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }
