@@ -71,3 +71,7 @@ LeetCode广度优先搜索算法题的解题仓库
 [513. 找树左下角的值](https://leetcode.cn/problems/find-bottom-left-tree-value/description/?envType=problem-list-v2&envId=breadth-first-search) : [L513_findBottomLeftValue](L513_findBottomLeftValue)
 
 [514. 自由之路](https://leetcode.cn/problems/freedom-trail/description/?envType=problem-list-v2&envId=breadth-first-search) : [L514_findRotateSteps](L514_findRotateSteps)
+
+[515. 在每个树行中找最大值](https://leetcode.cn/problems/find-largest-value-in-each-tree-row/description/?envType=problem-list-v2&envId=breadth-first-search) : [L515_largestValues](L515_largestValues)
+
+[529. 扫雷游戏](https://leetcode.cn/problems/minesweeper/description/?envType=problem-list-v2&envId=breadth-first-search) : [L529_updateBoard](L529_updateBoard)

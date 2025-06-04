@@ -49,6 +49,8 @@
 #include "L488_findMinStep/L488_findMinStep.h"
 #include "L513_findBottomLeftValue/L513_findBottomLeftValue.h"
 #include "L514_findRotateSteps/L514_findRotateSteps.h"
+#include "L515_largestValues/L515_largestValues.h"
+#include "L529_updateBoard/L529_updateBoard.h"
 
 class test_factory {
 private:
@@ -157,6 +159,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         } else if (title == "L514") {
             std::shared_ptr<L514_findRotateSteps> tmp= std::make_shared<L514_findRotateSteps>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L515") {
+            std::shared_ptr<L515_largestValues> tmp= std::make_shared<L515_largestValues>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L529") {
+            std::shared_ptr<L529_updateBoard> tmp = std::make_shared<L529_updateBoard>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }
