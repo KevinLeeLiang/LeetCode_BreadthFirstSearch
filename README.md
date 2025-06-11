@@ -75,3 +75,7 @@ LeetCode广度优先搜索算法题的解题仓库
 [515. 在每个树行中找最大值](https://leetcode.cn/problems/find-largest-value-in-each-tree-row/description/?envType=problem-list-v2&envId=breadth-first-search) : [L515_largestValues](L515_largestValues)
 
 [529. 扫雷游戏](https://leetcode.cn/problems/minesweeper/description/?envType=problem-list-v2&envId=breadth-first-search) : [L529_updateBoard](L529_updateBoard)
+
+[530. 二叉搜索树的最小绝对差](https://leetcode.cn/problems/minimum-absolute-difference-in-bst/description/?envType=problem-list-v2&envId=breadth-first-search) : [L530_getMinimumDifference](L530_getMinimumDifference)
+
+[542. 01 矩阵](https://leetcode.cn/problems/01-matrix/description/?envType=problem-list-v2&envId=breadth-first-search) : [L542_updateMatrix]

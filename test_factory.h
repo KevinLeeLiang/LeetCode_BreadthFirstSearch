@@ -51,6 +51,8 @@
 #include "L514_findRotateSteps/L514_findRotateSteps.h"
 #include "L515_largestValues/L515_largestValues.h"
 #include "L529_updateBoard/L529_updateBoard.h"
+#include "L530_getMinimumDifference/L530_getMinimumDifference.h"
+#include "L542_updateMatrix/L542_updateMatrix.h"
 
 class test_factory {
 private:
@@ -165,6 +167,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         } else if (title == "L529") {
             std::shared_ptr<L529_updateBoard> tmp = std::make_shared<L529_updateBoard>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L530") {
+            std::shared_ptr<L530_getMinimumDifference> tmp= std::make_shared<L530_getMinimumDifference>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L542") {
+            std::shared_ptr<L542_updateMatrix> tmp= std::make_shared<L542_updateMatrix>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }
