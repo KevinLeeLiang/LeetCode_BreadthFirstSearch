@@ -53,6 +53,8 @@
 #include "L529_updateBoard/L529_updateBoard.h"
 #include "L530_getMinimumDifference/L530_getMinimumDifference.h"
 #include "L542_updateMatrix/L542_updateMatrix.h"
+#include "L547_findCircleNum/L547_findCircleNum.h"
+#include "L559_maxDepth/L559_maxDepth.h"
 
 class test_factory {
 private:
@@ -173,6 +175,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         } else if (title == "L542") {
             std::shared_ptr<L542_updateMatrix> tmp= std::make_shared<L542_updateMatrix>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L547") {
+            std::shared_ptr<L547_findCircleNum> tmp= std::make_shared<L547_findCircleNum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L559") {
+            std::shared_ptr<L559_maxDepth> tmp= std::make_shared<L559_maxDepth>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }

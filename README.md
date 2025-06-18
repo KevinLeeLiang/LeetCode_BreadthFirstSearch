@@ -78,4 +78,8 @@ LeetCode广度优先搜索算法题的解题仓库
 
 [530. 二叉搜索树的最小绝对差](https://leetcode.cn/problems/minimum-absolute-difference-in-bst/description/?envType=problem-list-v2&envId=breadth-first-search) : [L530_getMinimumDifference](L530_getMinimumDifference)
 
-[542. 01 矩阵](https://leetcode.cn/problems/01-matrix/description/?envType=problem-list-v2&envId=breadth-first-search) : [L542_updateMatrix]
+[542. 01 矩阵](https://leetcode.cn/problems/01-matrix/description/?envType=problem-list-v2&envId=breadth-first-search) : [L542_updateMatrix](L542_updateMatrix)
+
+[547. 省份数量](https://leetcode.cn/problems/number-of-provinces/description/?envType=problem-list-v2&envId=breadth-first-search) : [L547_findCircleNum](L547_findCircleNum)
+
+[559. N 叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-n-ary-tree/description/?envType=problem-list-v2&envId=breadth-first-search) : [L559_maxDepth](L559_maxDepth)
