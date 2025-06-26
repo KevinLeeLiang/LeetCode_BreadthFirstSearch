@@ -55,6 +55,7 @@
 #include "L542_updateMatrix/L542_updateMatrix.h"
 #include "L547_findCircleNum/L547_findCircleNum.h"
 #include "L559_maxDepth/L559_maxDepth.h"
+#include "L617_mergeTree/L617_mergeTree.h"
 
 class test_factory {
 private:
@@ -181,6 +182,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         } else if (title == "L559") {
             std::shared_ptr<L559_maxDepth> tmp= std::make_shared<L559_maxDepth>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L617") {
+            std::shared_ptr<L617_mergeTree> tmp= std::make_shared<L617_mergeTree>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }

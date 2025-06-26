@@ -83,3 +83,7 @@ LeetCode广度优先搜索算法题的解题仓库
 [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/description/?envType=problem-list-v2&envId=breadth-first-search) : [L547_findCircleNum](L547_findCircleNum)
 
 [559. N 叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-n-ary-tree/description/?envType=problem-list-v2&envId=breadth-first-search) : [L559_maxDepth](L559_maxDepth)
+
+[617. 合并二叉树](https://leetcode.cn/problems/merge-two-binary-trees/description/?envType=problem-list-v2&envId=breadth-first-search) : [L617_mergeTrees](L617_mergeTrees)
+
+[623. 在二叉树中增加一行](https://leetcode.cn/problems/add-one-row-to-tree/description/?envType=problem-list-v2&envId=breadth-first-search) : [L623_addOneRow](L623_addOneRow)
