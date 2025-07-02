@@ -87,3 +87,7 @@ LeetCode广度优先搜索算法题的解题仓库
 [617. 合并二叉树](https://leetcode.cn/problems/merge-two-binary-trees/description/?envType=problem-list-v2&envId=breadth-first-search) : [L617_mergeTrees](L617_mergeTrees)
 
 [623. 在二叉树中增加一行](https://leetcode.cn/problems/add-one-row-to-tree/description/?envType=problem-list-v2&envId=breadth-first-search) : [L623_addOneRow](L623_addOneRow)
+
+[637. 二叉树的层平均值](https://leetcode.cn/problems/average-of-levels-in-binary-tree/description/?envType=problem-list-v2&envId=breadth-first-search) : [L637_averageOfLevels](L637_averageOfLevels)
+
+[653. 两数之和IV-输入二叉搜索树](https://leetcode.cn/problems/two-sum-iv-input-is-a-bst/description/?envType=problem-list-v2&envId=breadth-first-search) : [L653_findTarget](L653_findTarget)
