@@ -59,6 +59,7 @@
 #include "L637_averageOfLevels/L637_averageOfLevels.h"
 #include "L653_findTarget/L653_findTarget.h"
 #include "L655_printTree/L655_printTree.h"
+#include "L662_widthOfBinaryTree/L662_widthOfBinaryTree.h"
 
 class test_factory {
 private:
@@ -197,6 +198,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         } else if (title == "L655") {
             std::shared_ptr<L655_printTree> tmp= std::make_shared<L655_printTree>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L662") {
+            std::shared_ptr<L662_widthOfBinaryTree> tmp= std::make_shared<L662_widthOfBinaryTree>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }
