@@ -33,6 +33,7 @@
 #include <cstdarg>
 #include <set>
 #include <list>
+#include <numeric>
 using namespace std;
 class LeetcodeBreadthFirstSearch{
 public:
