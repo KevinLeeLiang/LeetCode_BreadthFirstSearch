@@ -61,6 +61,7 @@
 #include "L655_printTree/L655_printTree.h"
 #include "L662_widthOfBinaryTree/L662_widthOfBinaryTree.h"
 #include "L672_flipLights/L672_flipLights.h"
+#include "L675_cutOffTree/L675_cutOffTree.h"
 
 class test_factory {
 private:
@@ -205,6 +206,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         } else if (title == "L672") {
             std::shared_ptr<L672_flipLights> tmp= std::make_shared<L672_flipLights>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
+        } else if (title == "L675") {
+            std::shared_ptr<L675_cutOffTree> tmp= std::make_shared<L675_cutOffTree>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBreadthFirstSearch>(tmp);
         }
     }

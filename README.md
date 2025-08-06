@@ -97,3 +97,5 @@ LeetCode广度优先搜索算法题的解题仓库
 [662. 二叉树最大宽度](https://leetcode.cn/problems/maximum-width-of-binary-tree/description/?envType=problem-list-v2&envId=breadth-first-search) ： [L662_widthOfBinaryTree](L662_widthOfBinaryTree)
 
 [672. 灯泡开关 II](https://leetcode.cn/problems/bulb-switcher-ii/description/?envType=problem-list-v2&envId=breadth-first-search) : [L672_flipLights](L672_flipLights)
+
+[675. 为高尔夫比赛砍树](https://leetcode.cn/problems/cut-off-trees-for-golf-event/description/?envType=problem-list-v2&envId=breadth-first-search) : [L675_cutOffTree](L675_cutOffTree)
